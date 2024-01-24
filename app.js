@@ -111,7 +111,6 @@ function showScore() {
   questionElement.innerHTML = message;
   nextButton.innerHTML = "Play Again";
   nextButton.style.display = "block";
-  showMessage(message);
 }
 
 
