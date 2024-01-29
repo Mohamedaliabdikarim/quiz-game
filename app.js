@@ -446,12 +446,14 @@ const myQuestions = [
   const quizElement = document.querySelector(".quiz");
   const h1Element = document.querySelector("h1");
   const startButton = document.querySelector(".start");
+  const regel = document.querySelector("p")
   
   let currentQuestionIndex = 0;
   let score = 0;
   let randomQuestions = shuffleArray(myQuestions).slice(0, 10);
   
   function hideElements() {
+    regel.classList.add("hide")
     startButton.classList.add("hide");
     starregel.classList.remove("hide");
     quizElement.classList.remove("hide");
@@ -459,8 +461,10 @@ const myQuestions = [
   }
   
   startButton.addEventListener("click", () => {
+    starregel.classList.add("hide");
     startQuiz();
     hideElements();
+    regel.classList.add("hide")
   });
   
   function shuffleArray(array) {
@@ -535,6 +539,7 @@ const myQuestions = [
     } else {
       message += " 😅 Don't worry; quizzes are meant for learning! Try again and have fun!";
     }
+    starregel.classList.remove("hide");
     startButton.classList.remove("hide");
     questionElement.innerHTML = message;
     nextButton.innerHTML = "Play Again";
