@@ -45,16 +45,18 @@ const messageElement = document.getElementById("message");
 const starregel = document.getElementById("regel");
 const quizElement = document.querySelector(".quiz");
 const h1Element = document.querySelector("h1");
+const startButton = document.querySelector(".start");
 
 let currentQuestionIndex = 0;
 let score = 0;
 
 function hideElements() {
+    startButton.classList.add("hide")
     starregel.classList.remove("hide");
     quizElement.classList.remove("hide");
     h1Element.classList.remove("hide");
   }
-  const startButton = document.querySelector(".start");
+ 
 
 startButton.addEventListener("click", () => {
   startQuiz();
@@ -126,6 +128,7 @@ function showScore() {
   } else {
       message += " 😅 Don't worry; quizzes are meant for learning! Try again and have fun!";
   }
+  startButton.classList.remove("hide")
   questionElement.innerHTML = message;
   nextButton.innerHTML = "Play Again";
   nextButton.style.display = "block";
