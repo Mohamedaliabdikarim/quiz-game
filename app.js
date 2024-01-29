@@ -4,7 +4,8 @@ const myQuestions = [
         answer: [
           { text: "Hong Kong", correct: true },
           { text: "Japan", correct: false },
-          { text: "Australia", correct: false }
+          { text: "Australia", correct: false },
+          { text: "UK", correct: false }
         ]
       },
       {
@@ -12,7 +13,8 @@ const myQuestions = [
         answer: [
           { text: "Rome", correct: true },
           { text: "Paris", correct: false },
-          { text: "Berlin", correct: false }
+          { text: "Berlin", correct: false },
+          { text: "London", correct: false }
         ]
       },
       {
@@ -27,6 +29,7 @@ const myQuestions = [
         answer: [
           { text: "1850", correct: false },
           { text: "1945", correct: true },
+          { text: "1973", correct: false },
           { text: "1973", correct: false }
         ]
       },
@@ -35,7 +38,8 @@ const myQuestions = [
         answer: [
           { text: "Walt Disney", correct: true },
           { text: "faxa gedi", correct: false },
-          { text: "saha", correct: false }
+          { text: "saha", correct: false },
+          { text: "Bush", correct: false }
         ]
       },
       {
@@ -43,65 +47,72 @@ const myQuestions = [
         answer: [
           { text: "Drake", correct: true },
           { text: "50 cent", correct: false },
-          { text: "Eminem", correct: false }
+          { text: "Eminem", correct: false },
+          { text: "Dr. Dre", correct: false },
         ]
       },
-      // ... (previous questions)
-
+     
 {
     question: "How many minutes are in a full week?",
     answer: [
       { text: "850", correct: false },
       { text: "15,040", correct: false },
-      { text: "10,080", correct: true }
+      { text: "10,080", correct: true },
+      { text: "10,00", correct: true }
     ]
   },
   {
-    question: "What car manufacturer had the highest revenue in 2020? Volkswagen",
+    question: "What car manufacturer had the highest revenue in 2020?",
     answer: [
       { text: "BMW", correct: false },
       { text: "Volkswagen", correct: true },
-      { text: "TOYO", correct: false }
+      { text: "Toyota", correct: false },
+      { text: "Volvo", correct: false }
     ]
   },
   {
-    question: "How many elements are in the periodic table? 118",
+    question: "How many elements are in the periodic table? ",
     answer: [
       { text: "100", correct: false },
       { text: "118", correct: true },
-      { text: "232", correct: false }
+      { text: "232", correct: false },
+      { text: "75", correct: false }
     ]
   },
   {
-    question: 'What company was originally called "Cadabra"? Amazon',
+    question: 'What company was originally called "Cadabra"?',
     answer: [
       { text: "Amazon", correct: true },
       { text: "apple", correct: false },
-      { text: "Telsa", correct: false }
+      { text: "Telsa", correct: false },
+      { text: "hmm", correct: false }
     ]
   },
   {
-    question: 'How many faces does a Dodecahedron have? 12',
+    question: 'How many faces does a Dodecahedron have?',
     answer: [
       { text: "12", correct: true },
       { text: "14", correct: false },
-      { text: "6", correct: false }
+      { text: "6", correct: false },
+      { text: "0", correct: false }
     ]
   },
   {
-    question: ' Queen guitarist Brian May is also an expert in what scientific field? Astrophysics',
+    question: 'Queen guitarist Brian May is also an expert in what scientific field?',
     answer: [
       { text: "Astrophysics", correct: true },
       { text: "Geology", correct: false },
-      { text: "Marine Biology", correct: false }
+      { text: "Marine Biology", correct: false },
+      { text: "Chemistry", correct: false }
     ]
   },
   {
-    question: 'Aureolin is a shade of what color? Yellow',
+    question: 'Aureolin is a shade of what color?',
     answer: [
       { text: "Blue", correct: false },
       { text: "Yellow", correct: true },
-      { text: "Green", correct: false }
+      { text: "Green", correct: false },
+      { text: "Red", correct: false }
     ]
   },
 
