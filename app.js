@@ -37,13 +37,30 @@ const myQuestions = [
   }
 ];
 
+
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 const messageElement = document.getElementById("message");
+const starregel = document.getElementById("regel");
+const quizElement = document.querySelector(".quiz");
+const h1Element = document.querySelector("h1");
 
 let currentQuestionIndex = 0;
 let score = 0;
+
+function hideElements() {
+    starregel.classList.remove("hide");
+    quizElement.classList.remove("hide");
+    h1Element.classList.remove("hide");
+  }
+  const startButton = document.querySelector(".start");
+
+startButton.addEventListener("click", () => {
+  startQuiz();
+  hideElements();
+});
+
 
 function startQuiz() {
   currentQuestionIndex = 0;
@@ -52,6 +69,7 @@ function startQuiz() {
   showQuestion();
   showMessage("Welcome to the Awesome Quiz! Let's have some fun and test your knowledge!");
 }
+
 
 function showQuestion() {
   resetState();
@@ -135,3 +153,5 @@ function showMessage(text) {
   messageElement.style.display = "block";
 }
 startQuiz();
+
+
