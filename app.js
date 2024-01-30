@@ -479,6 +479,7 @@ function shuffleArray(array) {
 function startQuiz() {
   currentQuestionIndex = 0;
   score = 0;
+  randomQuestions = shuffleArray(myQuestions).slice(0, 10);
   nextButton.innerHTML = "Next";
   showQuestion();
   showMessage("Welcome to the Awesome Quiz! Let's have some fun and test your knowledge!");
@@ -551,7 +552,6 @@ function handleNextButton() {
   if (currentQuestionIndex < randomQuestions.length) {
     showQuestion();
   } else {
-    shuffleArray(randomQuestions);
     showScore();
   }
 }

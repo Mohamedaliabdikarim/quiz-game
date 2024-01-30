@@ -1,39 +1,36 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Awesome Quiz
 
-Welcome,
+Welcome to the Awesome Quiz! Test your knowledge with a variety of interesting questions.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Table of Contents
+- [Introduction](#introduction)
+- [How to Play](#how-to-play)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Introduction
+The Awesome Quiz is a simple quiz game that challenges your knowledge on various topics. It's a fun and interactive way to learn new facts.
 
-## Codeanywhere Reminders
+## How to Play
+1. Click the "Start" button to begin the quiz.
+2. Answer the questions by selecting the correct option.
+3. See your score at the end and discover how well you did!
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Installation
+No installation is required. Simply open the `index.html` file in a web browser.
 
-`python3 -m http.server`
+## Usage
+1. Click the "Start" button to initiate the quiz.
+2. Answer each question by clicking on the provided options.
+3. View your final score and feedback at the end.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+## Contributing
+If you'd like to contribute to this project, feel free to submit a pull request.
