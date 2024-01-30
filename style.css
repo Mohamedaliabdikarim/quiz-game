@@ -5,24 +5,30 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #a28089;
+    background-color:black;
 }
 #message{
     font-size: 25px;
-    color: #001e4d;
+    color: white;
     font-weight: 600;
     border-bottom:1px solid #333  ;
     padding-bottom:30px ;
     width: 100%;
+    text-align: center;
     padding: 40px;
     margin-left:10px;
     margin-top: 25px;
     
 
 }
+p{
+    text-align: center;
+    color: #001e4d;
+
+}
 
 .app{
-    background:#a0d2eb;
+    background:#327394;
     border-radius: 10px;
     margin:10px auto 0;
     width: 80%;
