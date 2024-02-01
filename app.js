@@ -465,6 +465,7 @@ function hideElements() {
 
 goHome.addEventListener("click", () => {
   showHome();
+  
 
 });
 
@@ -485,7 +486,7 @@ function showHome() {
 
 startButton.addEventListener("click", () => {
   starregel.classList.add("hide");
- 
+  goHome.classList.remove("hide");
   startQuiz();
   hideElements();
   regel.classList.add("hide")
@@ -570,6 +571,7 @@ function showScore() {
   questionElement.innerHTML = message;
   nextButton.innerHTML = "Play Again";
   nextButton.style.display = "block";
+  goHome.classList.remove("hide");
 }
 
 function handleNextButton() {
@@ -578,6 +580,7 @@ function handleNextButton() {
     showQuestion();
   } else {
     showScore();
+  
   }
 }
 
@@ -588,6 +591,8 @@ nextButton.addEventListener("click", () => {
   } else {
 
     startQuiz();
+    goHome.classList.remove("hide");
+
   }
 });
 
