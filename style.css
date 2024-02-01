@@ -75,7 +75,7 @@ p{
     cursor: no-drop;
 }
 .logo{
-    background-color: #342a2a;
+   /* background-color: #342a2a;*/
     display: flex;
     align-items: center;
     justify-content:center;
