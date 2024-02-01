@@ -75,6 +75,7 @@ p{
     cursor: no-drop;
 }
 .logo{
+    background-color: #342a2a;
     display: flex;
     align-items: center;
     justify-content:center;
@@ -86,6 +87,7 @@ img:hover {
     background-color: #5b454553;
 }
 img{
+
     border-radius: 14px;
     text-align: center;
     width: 90px;
