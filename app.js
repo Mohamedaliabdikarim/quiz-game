@@ -447,12 +447,14 @@ const quizElement = document.querySelector(".quiz");
 const h1Element = document.querySelector("h1");
 const startButton = document.querySelector(".start");
 const regel = document.querySelector("p")
+const goHome = document.querySelector(".home")
 
 let currentQuestionIndex = 0;
 let score = 0;
 let randomQuestions = shuffleArray(myQuestions).slice(0, 10);
 
 function hideElements() {
+  goHome.classList.remove("hide")
   regel.classList.add("hide")
   startButton.classList.add("hide");
   starregel.classList.remove("hide");
@@ -460,8 +462,24 @@ function hideElements() {
   h1Element.classList.remove("hide");
 }
 
+goHome.addEventListener("click", () => {
+  showHome();
+});
+
+function showHome() {
+  h1Element.classList.add("hide");
+  starregel.classList.add("hide");
+  startButton.classList.remove("hide");
+  starregel.classList.remove("hide");
+  quizElement.classList.add("hide");
+  resetState();
+  regel.classList.remove("hide");
+  goHome.classList.add("hide");
+}
+
 startButton.addEventListener("click", () => {
   starregel.classList.add("hide");
+ 
   startQuiz();
   hideElements();
   regel.classList.add("hide")
@@ -477,6 +495,7 @@ function shuffleArray(array) {
 }
 
 function startQuiz() {
+  goHome.classList.add("hide")
   currentQuestionIndex = 0;
   score = 0;
   randomQuestions = shuffleArray(myQuestions).slice(0, 10);
