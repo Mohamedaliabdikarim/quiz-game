@@ -448,6 +448,7 @@ const h1Element = document.querySelector("h1");
 const startButton = document.querySelector(".start");
 const regel = document.querySelector("p")
 const goHome = document.querySelector(".home")
+const homeButton = document.querySelector("img")
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -463,6 +464,11 @@ function hideElements() {
 }
 
 goHome.addEventListener("click", () => {
+  showHome();
+
+});
+
+homeButton.addEventListener("click", () => {
   showHome();
 });
 
