@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 body{
+    height: 100vh;
     background-color:black;
 }
 #message{
@@ -74,17 +75,27 @@ p{
     cursor: no-drop;
 }
 .logo{
+    display: flex;
+    position: relative;
+    text-align: center;
+    width: fit-content;
     margin-top:0;
-    width:100%;
     border-bottom:1px solid #333;
     align-items: center;
     justify-items: center;
+    padding: 10px 20px;
+    border: 2px solid #ccc;
+    border-radius: 14px
+}
+.logo:hover {
+    background-color: #5b454553;
 }
 img{
-align-items: center;
-    width: 100px;
-    height: 100px;
+    text-align: center;
+    width: 90px;
+    height: 90px;
     cursor: pointer;
+
     
 }
 .home{
