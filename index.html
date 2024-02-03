@@ -7,9 +7,13 @@
     <title>Awesome Quiz</title>
   </head>
   <body>
+     <!-- Logo section -->
     <div class="logo"><img src="logo.svg" alt="logo"></div>
+       <!-- Message section (for dynamic messages from the quiz) -->
     <div id="message"></div>
+        <!-- Main application section -->
     <div class="app">
+      <!-- Introduction and rules section (initially visible) -->
         <div class="regel" id="regel">
             <p>
                 This quiz consists of 50 questions, and each time you start a round, you will receive 10 random questions. The goal is to achieve a score of over 60% to be approved. Good luck!
@@ -17,9 +21,12 @@
             <button class="start" id="start">Start Quiz</button>
             <a href="#start" class="home" > HOME</a>
         </div>
+          <!-- Quiz title (initially hidden) -->
       <h1 class=" hide">BrainBuster Challenge</h1>
+         <!-- Quiz content section (initially hidden) -->
 
       <div class="quiz hide">
+          <!-- Answer buttons section -->
         
         <h2 id="question">question goes here</h2>
         <div id="answer-buttons">
@@ -28,12 +35,14 @@
           <button class="btn">Answer</button>
           <button class="btn">Answer</button>
         </div>
+        <!-- Next button for progressing to the next question -->
         <button id="next-btn">Next</button>
       </div>
     </div>
     <div>
       <h1></h1>
     </div>
+     <!-- Script tag to include JavaScript file (app.js) -->
     <script src="app.js"></script>
   </body>
 </html>
