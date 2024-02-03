@@ -1,3 +1,4 @@
+// Array of quiz questions with corresponding answers
 const myQuestions = [
   {
       question: "What country has the highest life expectancy?",
@@ -437,7 +438,7 @@ const myQuestions = [
 
 
 
-
+// DOM elements for various parts of the quiz
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
@@ -450,10 +451,13 @@ const regel = document.querySelector("p")
 const goHome = document.querySelector(".home")
 const homeButton = document.querySelector("img")
 
+// Variables to track the current question index, user score, and a subset of random questions for the quiz
+
 let currentQuestionIndex = 0;
 let score = 0;
 let randomQuestions = shuffleArray(myQuestions).slice(0, 10);
 
+// Function to hide various elements and show the quiz
 function hideElements() {
   goHome.classList.remove("hide")
   regel.classList.add("hide")
@@ -463,16 +467,18 @@ function hideElements() {
   h1Element.classList.remove("hide");
 }
 
+// Event listener for the "Go Home" button
 goHome.addEventListener("click", () => {
   showHome();
   
 
 });
 
+// Event listener for the "Home" button
 homeButton.addEventListener("click", () => {
   showHome();
 });
-
+// Function to show the home page
 function showHome() {
   h1Element.classList.add("hide");
   starregel.classList.add("hide");
@@ -484,6 +490,7 @@ function showHome() {
   goHome.classList.add("hide");
 }
 
+// Event listener for the "Start" button
 startButton.addEventListener("click", () => {
   starregel.classList.add("hide");
   goHome.classList.remove("hide");
@@ -491,7 +498,7 @@ startButton.addEventListener("click", () => {
   hideElements();
   regel.classList.add("hide")
 });
-
+// Function to shuffle an array
 function shuffleArray(array) {
   const shuffledArray = [...array];
   for (let i = shuffledArray.length - 1; i > 0; i--) {
@@ -501,6 +508,7 @@ function shuffleArray(array) {
   return shuffledArray;
 }
 
+// Function to initialize the quiz
 function startQuiz() {
   goHome.classList.add("hide")
   currentQuestionIndex = 0;
@@ -511,6 +519,7 @@ function startQuiz() {
   showMessage("Welcome to the Awesome Quiz! Let's have some fun and test your knowledge!");
 }
 
+// Function to display the current question
 function showQuestion() {
   resetState();
   let currentQuestion = randomQuestions[currentQuestionIndex];
@@ -527,7 +536,7 @@ function showQuestion() {
     button.addEventListener("click", selectAnswer);
   });
 }
-
+// Function to reset the quiz
 function resetState() {
   nextButton.style.display = "none";
   while (answerButtons.firstChild) {
@@ -535,6 +544,7 @@ function resetState() {
   }
 }
 
+// Function to handle user's answer selection
 function selectAnswer(e) {
   const selectedBtn = e.target;
   const isCorrect = selectedBtn.dataset.correct === "true";
@@ -553,6 +563,7 @@ function selectAnswer(e) {
   nextButton.style.display = "block";
 }
 
+// Function to display the final score and appropriate message
 function showScore() {
   resetState();
   const percentage = ((score / randomQuestions.length) * 100).toFixed(2);
@@ -574,6 +585,7 @@ function showScore() {
   goHome.classList.remove("hide");
 }
 
+// Function to handle the "Next" button click
 function handleNextButton() {
   currentQuestionIndex++;
   if (currentQuestionIndex < randomQuestions.length) {
@@ -584,7 +596,7 @@ function handleNextButton() {
   }
 }
 
-
+// Event listener for the "Next" button
 nextButton.addEventListener("click", () => {
   if (currentQuestionIndex < randomQuestions.length) {
     handleNextButton();
@@ -596,9 +608,11 @@ nextButton.addEventListener("click", () => {
   }
 });
 
+// Function to display a message on 
 function showMessage(text) {
   messageElement.innerText = text;
   messageElement.style.display = "block";
 }
 
+// Initial start of the quiz
 startQuiz();
