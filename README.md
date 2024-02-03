@@ -11,7 +11,7 @@ Welcome to the Awesome Quiz! Test your knowledge with a variety of interesting q
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
-- [License](#license)
+- [User Experience UX](#User-Experience-UX)
 
 ## Introduction
 The Awesome Quiz is a simple quiz game that challenges your knowledge on various topics. It's a fun and interactive way to learn new facts.
@@ -28,7 +28,6 @@ The Awesome Quiz is a simple quiz game that challenges your knowledge on various
 No installation is required. Simply open the `index.html` file in a web browser.
 
 # User Experience (UX)
----
 ## Wireframes
 I created the wireframes for Awesome Quiz using Figma, designing frames specifically for a full-width display. The final website deviates slightly from the original wireframes, reflecting adjustments made during the development proces.
 ![img](assets\image\figma-quiz1.png)
@@ -100,6 +99,80 @@ Add an exhilarating twist to the gameplay with time-based challenges or modes, p
 - Successfully validated with W3C CSS, free from errors. 
 
 ![img](assets\image\css.quiz.png)
+
+## Bugs
+I encountered several bugs in my HTML, which I discovered during validation. The form was not functioning correctly initially
+
+![img](assets\image\html-eror-quiz.png)
+
+### JavaScript
+During the development of this application, I encountered numerous bugs in the JavaScript code. Several buttons did not function as intended, and unfortunately, I don't have any images to document these issues. Another challenge was that the questions were not properly shuffled when the "pagy agai" button was pressed. I worked diligently to address these issues, but regrettably, I lack visual references to showcase them.
+
+# Deployment
+To deploy github, follow these steps:
+
+    Navigate to the GitHub repository for Your Project Name and go to the Settings tab.
+
+    In the Settings menu, find the Pages tab on the left-hand side.
+
+    Under the Source section, select the branch you want to deploy, typically the main or master branch.
+
+    Click Save.
+
+    Once the selected branch has been chosen, the page will be automatically refreshed, and you'll see a detailed ribbon display indicating the successful deployment.
+
+Now, your project, Your Project Name, should be accessible on GitHub Pages!
+
+Note: It might take a few moments for the changes to take effect, and for your site to become live.
+![img](assets\image\deployment.png)
+
+### To duplicate a repository on GitHub
+you can create a duplicate of a GitHub repository by forking the GitHub account. This duplicated version allows you to view and make changes without impacting the original repository. Follow these steps to fork the repository:
+
+- Sign in to your GitHub account and find the desid repository.
+- On the right side of the page, adjacent to the repository name, there is a 'Fork' button. Click on this button to generate a copy of the original repository in your GitHub account.
+![img](assets\image\fork.png)
+
+### To generate a local copy of this projec
+
+Here's the process for cloning a project from GitHub:
+
+To generate a local copy of this project
+
+Here's the process for cloning a project from GitHub:
+
+1. Navigate to the code tab under the repository's name.
+2.  In the Clone with HTTPS section, click on the clipboard icon to copy the provided URL. 
+
+![img](assets\image\copy.png)
+
+
+3.  Open Git Bash in your preferred integrated development environment (IDE).
+
+4.  Set the current working directory to the location where you intend to create the cloned directory.
+
+5.  Type "git clone" and then paste the URL copied from GitHub.
+
+6.  Press enter, and the local copy will be successfully created.
+
+
+# Credits
+
+-  font is from google fonts
+
+-  icon I made it in figma
+
+
+### Code 
+
+# Acknowledgements
+This website stands as the culmination of my efforts during the Portfolio 2 Project for the Full Stack Software Developer (e-Commerce) Diploma at the Code Institute. I extend my heartfelt gratitude to my mentor, Precious Ijege, the invaluable Slack community, and everyone at the Code Institute for their unwavering assistance and support throughout this journey. While Wawas Woods is a fictitious entity, its presence is tangible in every aspect except for the business title. At present, it is more than just a project – it is a passion!
+
+
+
+
+
+
 
 
 

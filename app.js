@@ -126,7 +126,7 @@ const myQuestions = [
   ]
 },
 {
-  question: "What Renaissance artist is buried in Rome's Pantheon? Raphael",
+  question: "What Renaissance artist is buried in Rome's Pantheon?",
   answer: [
     { text: "Raphael", correct: true },
     { text: "Michelangelo", correct: false },
@@ -134,7 +134,7 @@ const myQuestions = [
   ]
 },
 {
-  question: 'What shoe brand makes the "Mexico 66"? Onitsuka Tiger',
+  question: 'What shoe brand makes the "Mexico 66"?',
   answer: [
     { text: "Adidas", correct: false },
     { text: "Onitsuka Tiger", correct: true },
@@ -142,7 +142,7 @@ const myQuestions = [
   ]
 },
 {
-  question: 'What game studio makes the Red Dead Redemption series? Rockstar Games',
+  question: 'What game studio makes the Red Dead Redemption series?',
   answer: [
     { text: "Ubisoft", correct: false },
     { text: "Electronic Arts", correct: false },
@@ -158,7 +158,7 @@ const myQuestions = [
   ]
 },
 {
-  question: 'What character have both Robert Downey Jr. and Benedict Cumberbatch played? Sherlock Holmes',
+  question: 'What character have both Robert Downey Jr. and Benedict Cumberbatch played?',
   answer: [
     { text: "James Bond", correct: false },
     { text: "Batman", correct: false },
@@ -166,7 +166,7 @@ const myQuestions = [
   ]
 },
 {
-  question: 'What country drinks the most coffee per capita? Finland',
+  question: 'What country drinks the most coffee per capita?',
   answer: [
     { text: "Italy", correct: false },
     { text: "Finland", correct: true },
@@ -174,7 +174,7 @@ const myQuestions = [
   ]
 },
 {
-  question: 'Which planet in the Milky Way is the hottest? Venus',
+  question: 'Which planet in the Milky Way is the hottest?',
   answer: [
     { text: "Mars", correct: false },
     { text: "Venus", correct: true },
@@ -182,7 +182,7 @@ const myQuestions = [
   ]
 },
 {
-  question: 'What is the 4th letter of the Greek alphabet? Delta',
+  question: 'What is the 4th letter of the Greek alphabet?',
   answer: [
     { text: "Delta", correct: true },
     { text: "Gamma", correct: false },
@@ -190,7 +190,7 @@ const myQuestions = [
   ]
 },
 {
-  question: 'What sports car company manufactures the 911? Porsche',
+  question: 'What sports car company manufactures the 911?',
   answer: [
     { text: "Porsche", correct: true },
     { text: "Lamborghini", correct: false },
@@ -199,7 +199,7 @@ const myQuestions = [
 },
 
 {
-  question: 'What city is known as "The Eternal City"? Rome',
+  question: 'What city is known as "The Eternal City"?',
   answer: [
     { text: "Paris", correct: false },
     { text: "Rome", correct: true },
@@ -207,7 +207,7 @@ const myQuestions = [
   ]
 },
 {
-  question: 'Roald Amundsen was the first man to reach the South Pole, but where was he from? Norway',
+  question: 'Roald Amundsen was the first man to reach the South Pole, but where was he from?',
   answer: [
     { text: "Denmark", correct: false },
     { text: "Norway", correct: true },
@@ -215,7 +215,7 @@ const myQuestions = [
   ]
 },
 {
-  question: 'What is the highest-rated film on IMDb as of January 1st, 2022? The Shawshank Redemption',
+  question: 'What is the highest-rated film on IMDb as of January 1st, 2022?',
   answer: [
     { text: "The Dark Knight", correct: false },
     { text: "The Godfather", correct: false },
