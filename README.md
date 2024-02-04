@@ -27,7 +27,7 @@ The Awesome Quiz is a simple quiz game that challenges your knowledge on various
 # Installation
 No installation is required. Simply open the `index.html` file in a web browser.
 
-# User Experience (UX)
+# User Experience UX
 ## Wireframes
 I created the wireframes for Awesome Quiz using Figma, designing frames specifically for a full-width display. The final website deviates slightly from the original wireframes, reflecting adjustments made during the development proces.
 ![img](assets\image\figma-quiz1.png)
