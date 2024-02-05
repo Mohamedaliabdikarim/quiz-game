@@ -106,20 +106,23 @@ I encountered several bugs in my HTML, which I discovered during validation. The
 ![img](assets\image\html-eror-quiz.png)
 
 ### JavaScript
-During the development of this application, I encountered numerous bugs in the JavaScript code. Several buttons did not function as intended, and unfortunately, I don't have any images to document these issues. Another challenge was that the questions were not properly shuffled when the "pagy agai" button was pressed. I worked diligently to address these issues, but regrettably, I lack visual references to showcase them.
+During the development of this application, I encountered numerous bugs in the JavaScript code. Several buttons did not function as intended, and unfortunately, I don't have any images to document these issues. Another challenge was that the questions were not properly shuffled when the "play again" button was pressed. I worked diligently to address these issues, but regrettably, I lack visual references to showcase them.
+
+### Device Testing Form
+
+| Device          | iphone 14 pro | Galaxy S8+ | iPhone 5 | iPad mini | iPad Air | Display <1200px | Display >1200px |
+|-----------------|---------------|------------|----------|-----------|----------|------------------|------------------|
+| Render          | pass          | pass       | pass     | pass      | pass     | pass             | pass             |
+| Links           | pass          | pass       | pass     | pass      | pass     | pass             | pass             |
+
 
 # Deployment
 To deploy github, follow these steps:
-
-    Navigate to the GitHub repository for Your Project Name and go to the Settings tab.
-
-    In the Settings menu, find the Pages tab on the left-hand side.
-
-    Under the Source section, select the branch you want to deploy, typically the main or master branch.
-
-    Click Save.
-
-    Once the selected branch has been chosen, the page will be automatically refreshed, and you'll see a detailed ribbon display indicating the successful deployment.
+ - Navigate to the GitHub repository for Your Project Name and go to the Settings tab.
+-  In the Settings menu, find the Pages tab on the left-hand side.
+-  Under the Source section, select the branch you want to deploy, typically the main or master branch.
+-   Click Save.
+ -  Once the selected branch has been chosen, the page will be automatically refreshed, and you'll see a detailed ribbon display indicating the successful deployment.
 
 Now, your project, Your Project Name, should be accessible on GitHub Pages!
 
@@ -164,6 +167,7 @@ Here's the process for cloning a project from GitHub:
 
 
 ### Code 
+-  Some of the code has been extracted from this [YouTube video.](https://www.youtube.com/watch?v=xZXW5SnCiWI&t=2040s)
 
 # Acknowledgements
 This website stands as the culmination of my efforts during the Portfolio 2 Project for the Full Stack Software Developer (e-Commerce) Diploma at the Code Institute. I extend my heartfelt gratitude to my mentor, Precious Ijege, the invaluable Slack community, and everyone at the Code Institute for their unwavering assistance and support throughout this journey. While Wawas Woods is a fictitious entity, its presence is tangible in every aspect except for the business title. At present, it is more than just a project – it is a passion!

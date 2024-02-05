@@ -59,7 +59,7 @@ const myQuestions = [
     { text: "850", correct: false },
     { text: "15,040", correct: false },
     { text: "10,080", correct: true },
-    { text: "10,00", correct: true }
+    { text: "10,00", correct: false }
   ]
 },
 {
