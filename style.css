@@ -109,19 +109,26 @@ img{
 
 }
 
-#next-btn{
+#next-btn {
     background: #001e4d;
     color: #fff;
     font-weight: 500;
     width: 150px;
     border: 0;
     padding: 10px;
-    margin:20px auto 0 ;
- 
+    margin: 20px auto 0;
     border-radius: 4px;
     cursor: pointer;
     display: none;
 }
+
+#next-btn:hover {
+    cursor: pointer;
+    box-shadow: -6px 5px 7px rgb(36, 5, 5);
+    transform: translate(7px, -10px);
+    transition-duration: 0.8s ease-in;
+}
+
 
 .correct{
     background: #9aeabc;
@@ -141,13 +148,22 @@ img{
     text-align: center;
     align-items: center;
     justify-content: center;
-   
- 
     border-radius: 4px;
-    cursor: pointer;
 
 }
 
+.start:hover{
+    cursor: pointer;
+    box-shadow: -6px 5px 7px rgb(36, 5, 5);
+    transform: translate(7px,-10px);
+    transition-duration: 0.8s ease-in;
+}
+.home:hover{
+    cursor: pointer;
+    box-shadow: -6px 5px 7px rgb(36, 5, 5);
+    transform: translate(7px,-10px);
+    transition-duration: 0.8s ease-in;
+}
 .hide{
     display: none;
 }
