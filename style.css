@@ -83,18 +83,27 @@ p{
 }
 
 img{
-
     border-radius: 14px;
     text-align: center;
-    width: 90px;
-    height: 90px;
+    width: 50px;
+    height: 50px;
+    box-shadow: -6px 5px 6px rgb(170, 159, 40,0.8);
     cursor: pointer
 }
+
+img:hover {
+    cursor: pointer;
+    box-shadow: -6px 5px 60px rgb(189, 185, 147);
+    transform: translate(-7px, 20px);
+    transition-duration: 0.8s ease-out;
+}
+
 .home{
     background: #001e4d;
     color: #fff;
     font-weight: 500;
-    width: 90px;
+    width:150px;
+    height: 10px;
     font-size:10px;
     border: 0;
     padding: 20px;
