@@ -136,7 +136,7 @@ img:hover {
 #next-btn:hover {
     cursor: pointer;
     box-shadow: -6px 5px 7px rgb(206, 192, 192);
-    transform: translate(7px, -10px);
+    transform: translate(-3px,10px);
     transition-duration: 0.8s ease-in;
 }
 
