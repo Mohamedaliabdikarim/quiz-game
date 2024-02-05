@@ -18,7 +18,6 @@ The Awesome Quiz is a simple quiz game that challenges your knowledge on various
 ![img](assets\image\Skjermbilde-quiz.png)
 
 # How to Play
-kffjsljdfgljsf
 1. Click the "Start" button to begin the quiz.
 2. Answer the questions by selecting the correct option.
 3. See your score at the end and discover how well you did!
