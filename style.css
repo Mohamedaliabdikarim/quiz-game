@@ -33,6 +33,7 @@ p{
     margin:10px auto 0;
     width: 80%;
     padding: 40px;
+    box-shadow: -6px 5px 60px rgb(158, 156, 136);
 }
 
 .app h1{
