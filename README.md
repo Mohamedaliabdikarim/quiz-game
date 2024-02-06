@@ -15,7 +15,7 @@ Welcome to the Awesome Quiz! Test your knowledge with a variety of interesting q
 
 ## Introduction
 The Awesome Quiz is a simple quiz game that challenges your knowledge on various topics. It's a fun and interactive way to learn new facts.
-![img](assets\image\Skjermbilde-quiz.png)
+![img](assets/image/Skjermbilde-quiz.png)
 
 # How to Play
 1. Click the "Start" button to begin the quiz.
@@ -30,9 +30,9 @@ No installation is required. Simply open the `index.html` file in a web browser.
 # User Experience UX
 ## Wireframes
 I created the wireframes for Awesome Quiz using Figma, designing frames specifically for a full-width display. The final website deviates slightly from the original wireframes, reflecting adjustments made during the development proces.
-![img](assets\image\figma-quiz1.png)
-![img](assets\image\figma-quiz2.png)
-![img](assets\image\figma-quiz3.png)
+![img](assets/image/figma-quiz1.png)
+![img](assets/image/figma-quiz2.png)
+![img](assets/image/figma-quiz3.png)
 
 
 ## Site Structure
@@ -62,9 +62,9 @@ If you'd like to contribute to this project, feel free to submit a pull request.
 # Features
 This app has five buttons: a 'Start' button to initiate, an 'Answer' button to submit your response, a 'Next' button to proceed to the next question, a 'Home' button to return to the home screen if desired, and finally a 'Play Again' button to restart the quiz.
 
-![img](assets\image\side1.png)
-![img](assets\image\side-2.png)
-![img](assets\image\side-3.png)
+![img](assets/image/side1.png)
+![img](assets/image/side-2.png)
+![img](assets/image/side-3.png)
 
 
 # Future Features
@@ -93,17 +93,17 @@ Add an exhilarating twist to the gameplay with time-based challenges or modes, p
 # Testing
 ### HTML
 - Passed W3C HTML validation with no issues.
-![img](assets\image\html-no-quiz.png)
+![img](assets/image/html-no-quiz.png)
 
 ### CSS
 - Successfully validated with W3C CSS, free from errors. 
 
-![img](assets\image\css.quiz.png)
+![img](assets/image/css.quiz.png)
 
 ## Bugs
 I encountered several bugs in my HTML, which I discovered during validation. The form was not functioning correctly initially
 
-![img](assets\image\html-eror-quiz.png)
+![img](assets/image/html-eror-quiz.png)
 
 ### JavaScript
 During the development of this application, I encountered numerous bugs in the JavaScript code. Several buttons did not function as intended, and unfortunately, I don't have any images to document these issues. Another challenge was that the questions were not properly shuffled when the "play again" button was pressed. I worked diligently to address these issues, but regrettably, I lack visual references to showcase them.
@@ -127,14 +127,14 @@ To deploy github, follow these steps:
 Now, your project, Your Project Name, should be accessible on GitHub Pages!
 
 Note: It might take a few moments for the changes to take effect, and for your site to become live.
-![img](assets\image\deployment.png)
+![img](assets/image/deployment.png)
 
 ### To duplicate a repository on GitHub
 you can create a duplicate of a GitHub repository by forking the GitHub account. This duplicated version allows you to view and make changes without impacting the original repository. Follow these steps to fork the repository:
 
 - Sign in to your GitHub account and find the desid repository.
 - On the right side of the page, adjacent to the repository name, there is a 'Fork' button. Click on this button to generate a copy of the original repository in your GitHub account.
-![img](assets\image\fork.png)
+![img](assets/image/fork.png)
 
 ### To generate a local copy of this projec
 
@@ -147,7 +147,7 @@ Here's the process for cloning a project from GitHub:
 1. Navigate to the code tab under the repository's name.
 2.  In the Clone with HTTPS section, click on the clipboard icon to copy the provided URL. 
 
-![img](assets\image\copy.png)
+![img](assets/image/copy.png)
 
 
 3.  Open Git Bash in your preferred integrated development environment (IDE).
