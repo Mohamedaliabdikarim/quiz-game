@@ -118,7 +118,7 @@ const myQuestions = [
 },
 
 {
-  question: 'How many ghosts chase Pac-Man at the start of each game? 4',
+  question: 'How many ghosts chase Pac-Man at the start of each game?',
   answer: [
     { text: "5", correct: false },
     { text: "6", correct: false },
@@ -151,7 +151,7 @@ const myQuestions = [
   ]
 },
 {
-  question: 'Who was the last Tsar of Russia? Nicholas II',
+  question: 'Who was the last Tsar of Russia?',
   answer: [
     { text: "Alexander II", correct: false },
     { text: "Ivan the Terrible", correct: false },
