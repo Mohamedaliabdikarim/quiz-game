@@ -100,8 +100,6 @@ Add an exhilarating twist to the gameplay with time-based challenges or modes, p
 
 ![img](assets\image\css.quiz.png)
 
-### Lighthouse
-![img](assets\image\lightgouse-quiz.png)
 ## Bugs
 I encountered several bugs in my HTML, which I discovered during validation. The form was not functioning correctly initially
 
