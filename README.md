@@ -8,10 +8,27 @@ Welcome to the Awesome Quiz! Test your knowledge with a variety of interesting q
 - [Introduction](#introduction)
 - [How to Play](#how-to-play)
 - [Installation](#installation)
+- [User Experience UX](#user-experience-ux)
+    - [Wireframes](#wireframes)
+    - [Site Structure](#site-structure)
+        - [Design Choice](#design-choice)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Future Features](#future-features)
+- [Testing](#testing)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [Bugs](#bugs)
+    - [JavaScript](#javascript)
+    - [Device Testing Form](#device-testing-form)
+- [Deployment](#deployment)
 - [Contributing](#contributing)
-- [User Experience UX](#User-Experience-UX)
+    - [To Duplicate a Repository on GitHub](#to-duplicate-a-repository-on-github)
+    - [To Generate a Local Copy of This Project](#to-generate-a-local-copy-of-this-project)
+- [Credits](#credits)
+    - [Code](#code)
+- [Acknowledgements](#acknowledgements)
 
 ## Introduction
 The Awesome Quiz is a simple quiz game that challenges your knowledge on various topics. It's a fun and interactive way to learn new facts.
@@ -55,9 +72,6 @@ The choice of colors is simple and straightforward, with a black background and 
 - HTML
 - CSS
 - JavaScript
-
-# Contributing
-If you'd like to contribute to this project, feel free to submit a pull request.
 
 # Features
 This app has five buttons: a 'Start' button to initiate, an 'Answer' button to submit your response, a 'Next' button to proceed to the next question, a 'Home' button to return to the home screen if desired, and finally a 'Play Again' button to restart the quiz.
@@ -128,6 +142,9 @@ Now, your project, Your Project Name, should be accessible on GitHub Pages!
 
 Note: It might take a few moments for the changes to take effect, and for your site to become live.
 ![img](assets/image/deployment.png)
+
+# Contributing
+If you'd like to contribute to this project, feel free to submit a pull request.
 
 ### To duplicate a repository on GitHub
 you can create a duplicate of a GitHub repository by forking the GitHub account. This duplicated version allows you to view and make changes without impacting the original repository. Follow these steps to fork the repository:
