@@ -122,7 +122,7 @@ Add an exhilarating twist to the gameplay with time-based challenges or modes, p
 ![img](assets/image/lightgouse-quiz.png)
 
 ## Bugs
-I encountered several bugs in my HTML, which I discovered during validation. The form was not functioning correctly initially
+I encountered several bugs in my HTML, which I discovered during validation. I had syntax errors in the HTML file, which I have corrected after validation
 
 ![img](assets/image/html-eror-quiz.png)
 
