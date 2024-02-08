@@ -4,6 +4,12 @@ Welcome to the Awesome Quiz! Test your knowledge with a variety of interesting q
 
 [visit the page ](https://mohamedaliabdikarim.github.io/quiz-game/#start)
 
+
+## Introduction
+The Awesome Quiz is a simple quiz game that challenges your knowledge on various topics. It's a fun and interactive way to learn new facts.
+![img](assets/image/Skjermbilde-quiz.png)
+
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [How to Play](#how-to-play)
@@ -29,10 +35,6 @@ Welcome to the Awesome Quiz! Test your knowledge with a variety of interesting q
 - [Credits](#credits)
     - [Code](#code)
 - [Acknowledgements](#acknowledgements)
-
-## Introduction
-The Awesome Quiz is a simple quiz game that challenges your knowledge on various topics. It's a fun and interactive way to learn new facts.
-![img](assets/image/Skjermbilde-quiz.png)
 
 # How to Play
 1. Click the "Start" button to begin the quiz.
@@ -114,21 +116,36 @@ Add an exhilarating twist to the gameplay with time-based challenges or modes, p
 
 ![img](assets/image/css.quiz.png)
 
+
+## Lighthouse
+
+![img](assets/image/lightgouse-quiz.png)
+
 ## Bugs
 I encountered several bugs in my HTML, which I discovered during validation. The form was not functioning correctly initially
 
 ![img](assets/image/html-eror-quiz.png)
 
+## javaScript validator
+![img](assets/image/js-valid.png)
+
+![img](assets/image/js-quix.noerror.png)
+
+
+
 ### JavaScript
 During the development of this application, I encountered numerous bugs in the JavaScript code. Several buttons did not function as intended, and unfortunately, I don't have any images to document these issues. Another challenge was that the questions were not properly shuffled when the "play again" button was pressed. I worked diligently to address these issues, but regrettably, I lack visual references to showcase them.
 
-### Device Testing Form
+### Responsiveness Test
 
 | Device          | iphone 14 pro | Galaxy S8+ | iPhone 5 | iPad mini | iPad Air | Display <1200px | Display >1200px |
 |-----------------|---------------|------------|----------|-----------|----------|------------------|------------------|
 | Render          | pass          | pass       | pass     | pass      | pass     | pass             | pass             |
 | Links           | pass          | pass       | pass     | pass      | pass     | pass             | pass             |
 
+
+###  Browser Compatibility
+I conducted testing on the quiz app across various browsers, including Google Chrome, Safari, and Mozilla Firefox. No apparent issues were observed for users on these browsers. The site maintained consistent appearance, functionality, and responsiveness across a diverse range of device sizes and browser platforms.
 
 # Deployment
 To deploy github, follow these steps:

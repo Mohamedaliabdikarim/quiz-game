@@ -1,3 +1,4 @@
+
 // Array of quiz questions with corresponding answers
 const myQuestions = [
   {
@@ -436,6 +437,7 @@ const myQuestions = [
 
 
 
+/* eslint-env es6 */
 
 
 // DOM elements for various parts of the quiz
@@ -447,9 +449,9 @@ const starregel = document.getElementById("regel");
 const quizElement = document.querySelector(".quiz");
 const h1Element = document.querySelector("h1");
 const startButton = document.querySelector(".start");
-const regel = document.querySelector("p")
-const goHome = document.querySelector(".home")
-const homeButton = document.querySelector("img")
+const regel = document.querySelector("p");
+const goHome = document.querySelector(".home");
+const homeButton = document.querySelector("img");
 
 // Variables to track the current question index, user score, and a subset of random questions for the quiz
 
@@ -459,8 +461,8 @@ let randomQuestions = shuffleArray(myQuestions).slice(0, 10);
 
 // Function to hide various elements and show the quiz
 function hideElements() {
-  goHome.classList.remove("hide")
-  regel.classList.add("hide")
+  goHome.classList.remove("hide");
+  regel.classList.add("hide");
   startButton.classList.add("hide");
   starregel.classList.remove("hide");
   quizElement.classList.remove("hide");
@@ -496,7 +498,7 @@ startButton.addEventListener("click", () => {
   goHome.classList.remove("hide");
   startQuiz();
   hideElements();
-  regel.classList.add("hide")
+  regel.classList.add("hide");
 });
 // Function to shuffle an array
 function shuffleArray(array) {
@@ -510,7 +512,7 @@ function shuffleArray(array) {
 
 // Function to initialize the quiz
 function startQuiz() {
-  goHome.classList.add("hide")
+  goHome.classList.add("hide");
   currentQuestionIndex = 0;
   score = 0;
   randomQuestions = shuffleArray(myQuestions).slice(0, 10);
