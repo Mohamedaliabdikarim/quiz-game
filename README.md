@@ -201,6 +201,8 @@ Here's the process for cloning a project from GitHub:
 
 
 ### Code 
+
+- I have retrieved the questions from an AI generator.[chatGPT](https://chat.openai.com/)
 -  Some of the code has been extracted from this [YouTube video.](https://www.youtube.com/watch?v=xZXW5SnCiWI&t=2040s)
 
 # Acknowledgements
